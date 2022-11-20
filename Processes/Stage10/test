@@ -1,0 +1,31 @@
+#!/bin/bash
+
+path="."
+
+if [ $# -ne 0 ]; then
+	path=$1
+fi
+
+echo -e ""
+echo -e "\033[1;33mTest 1: Standart work\033[0m"
+rm -f $path/subprogramm/data_file
+touch $path/subprogramm/data_file
+chmod 700 $path/subprogramm/data_file
+
+for i in $(seq 1 1000);
+do
+    echo "Hello world" >> $path/subprogramm/data_file
+done
+
+$path/processes_worker $path/subprogramm/data_file
+echo -e ""
+echo "data_file content:"
+cat $path/subprogramm/data_file | grep -c .
+echo -e ""
+echo "parent_data_file content:"
+mv parent_data_file $path/subprogramm/parent_data_file
+cat $path/subprogramm/parent_data_file | grep -c .
+echo -e ""
+echo "child_data_file content:"
+mv child_data_file $path/subprogramm/child_data_file
+cat $path/subprogramm/child_data_file | grep -c .

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+path="."
+
+if [ $# -ne 0 ]; then
+	path=$1
+fi
+
+g++ $path/src/write.cpp -o $path/write -std=c++17
+g++ $path/src/stat.cpp -o $path/stat -std=c++17
+g++ $path/src/remove.cpp -o $path/remove -std=c++17

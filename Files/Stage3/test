@@ -1,0 +1,36 @@
+#!/bin/bash
+
+path="."
+
+if [ $# -ne 0 ]; then
+	path=$1
+fi
+
+echo -e ""
+echo -e "\033[1;33mTest 1: help\033[0m"
+$path/files_worker --help
+echo -e ""
+
+echo -e "\033[1;33mTest 2: Empty command line argument list\033[0m"
+$path/files_worker
+echo -e ""
+
+echo -e "\033[1;33mTest 3: Only file name\033[0m"
+$path/files_worker $path/data_file
+echo -e ""
+
+echo -e "\033[1;33mTest 4: Standart work\033[0m"
+rm -f $path/data_file
+$path/files_worker $path/data_file r
+echo -e ""
+
+echo -e "\033[1;33mTest 5: Standart work + write access\033[0m"
+rm -f $path/data_file
+$path/files_worker $path/data_file rw
+echo -e ""
+
+echo -e "\033[1;33mTest 6: More than two arguments\033[0m"
+$path/files_worker $path/data_file r another_argument
+echo -e ""
+
+rm -f $path/data_file

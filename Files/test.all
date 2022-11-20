@@ -1,0 +1,14 @@
+#!/bin/bash
+
+./build.all
+
+for i in $(seq 1 11);
+do
+        if [ -f Stage${i}/test ]; then
+                echo -e "\033[1;32mTest Stage"${i}"\033[0m"
+		chmod u=rwx Stage${i}/test
+                make test STAGE="Stage"${i}
+                echo ""
+                echo ""
+        fi
+done

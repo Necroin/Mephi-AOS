@@ -1,0 +1,9 @@
+#!/bin/bash
+
+path="."
+
+if [ $# -ne 0 ]; then
+	path=$1
+fi
+
+g++ $path/src/main.cpp -o $path/sync -std=c++17

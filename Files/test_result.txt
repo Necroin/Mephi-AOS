@@ -1,0 +1,556 @@
+[1;32mBuid Stage1[0m
+g++ -c -Wall Stage1/src/main.c -std=c++17
+g++ main.o -o Stage1/files_worker
+rm *.o
+
+
+[1;32mBuid Stage2[0m
+g++ -c -Wall Stage2/src/main.c -std=c++17
+g++ main.o -o Stage2/files_worker
+rm *.o
+
+
+[1;32mBuid Stage3[0m
+g++ -c -Wall Stage3/src/main.c -std=c++17
+g++ main.o -o Stage3/files_worker
+rm *.o
+
+
+[1;32mBuid Stage4[0m
+g++ -c -Wall Stage4/src/main.c -std=c++17
+g++ main.o -o Stage4/files_worker
+rm *.o
+
+
+[1;32mBuid Stage5[0m
+g++ -c -Wall Stage5/src/main.c -std=c++17
+g++ main.o -o Stage5/files_worker
+rm *.o
+
+
+[1;32mBuid Stage6[0m
+g++ -c -Wall Stage6/src/main.c -std=c++17
+g++ main.o -o Stage6/files_worker
+rm *.o
+
+
+[1;32mBuid Stage7[0m
+g++ -c -Wall Stage7/src/main.c -std=c++17
+g++ main.o -o Stage7/files_worker
+rm *.o
+
+
+[1;32mBuid Stage8[0m
+g++ -c -Wall Stage8/src/main.c -std=c++17
+g++ main.o -o Stage8/files_worker
+rm *.o
+
+
+[1;32mBuid Stage10[0m
+g++ -c -Wall Stage10/src/main.c -std=c++17
+g++ main.o -o Stage10/files_worker
+rm *.o
+
+
+[1;32mBuid Stage11[0m
+g++ -c -Wall Stage11/src/main.c -std=c++17
+g++ main.o -o Stage11/files_worker
+rm *.o
+
+
+[1;32mTest Stage1[0m
+Stage1/test ./Stage1/
+
+[1;33mTest 1: help[0m
+usage: file_worker file
+
+[1;33mTest 2: Empty command line argument list[0m
+usage: file_worker file
+
+[1;33mTest 3: Not exist file[0m
+Open file error code: 2
+
+[1;33mTest 4: Standart work[0m
+Opened file: ./Stage1//data_file
+
+[1;33mTest 5: More than one arguments[0m
+usage: file_worker file
+
+
+
+[1;32mTest Stage2[0m
+Stage2/test ./Stage2/
+
+[1;33mTest 1: help[0m
+usage: file_worker file access_rights
+	file - name of file
+	access_rights:
+		r - read
+		w - write
+		x - execute
+
+[1;33mTest 2: Empty command line argument list[0m
+usage: file_worker file access_rights
+
+[1;33mTest 3: Only file name[0m
+usage: file_worker file access_rights
+
+[1;33mTest 4: Standart work[0m
+Opened file: ./Stage2//data_file
+Opened file: ./Stage2//data_file
+File content:
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Open file error code: 13
+Open file result: -1
+
+[1;33mTest 5: Standart work + write access[0m
+Opened file: ./Stage2//data_file
+Opened file: ./Stage2//data_file
+File content:
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Opened file: ./Stage2//data_file
+Open file result: 3
+Close file result: 0
+
+[1;33mTest 6: More than two arguments[0m
+usage: file_worker file access_rights
+
+
+
+[1;32mTest Stage3[0m
+Stage3/test ./Stage3/
+
+[1;33mTest 1: help[0m
+usage: file_worker file access_rights
+	file - name of file
+	access_rights:
+		r - read
+		w - write
+		x - execute
+
+[1;33mTest 2: Empty command line argument list[0m
+usage: file_worker file access_rights
+
+[1;33mTest 3: Only file name[0m
+usage: file_worker file access_rights
+
+[1;33mTest 4: Standart work[0m
+Opened file: ./Stage3//data_file
+Open file result: 3
+Write file result: 12
+Write file result: 12
+Write file result: 12
+Write file result: 12
+Write file result: 12
+Close file result: 0
+Opened file: ./Stage3//data_file
+Open file result: 3
+File content:
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Close file result: 0
+Open file error code: 13
+Open file result: -1
+
+[1;33mTest 5: Standart work + write access[0m
+Opened file: ./Stage3//data_file
+Open file result: 3
+Write file result: 12
+Write file result: 12
+Write file result: 12
+Write file result: 12
+Write file result: 12
+Close file result: 0
+Opened file: ./Stage3//data_file
+Open file result: 3
+File content:
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Close file result: 0
+Opened file: ./Stage3//data_file
+Open file result: 3
+Close file result: 0
+
+[1;33mTest 6: More than two arguments[0m
+usage: file_worker file access_rights
+
+
+
+[1;32mTest Stage4[0m
+Stage4/test ./Stage4/
+
+[1;33mTest 1: help[0m
+usage: file_worker file access_rights
+	file - name of file
+	access_rights:
+		r - read
+		w - write
+		x - execute
+
+[1;33mTest 2: Empty command line argument list[0m
+usage: file_worker file access_rights
+
+[1;33mTest 3: Only file name[0m
+usage: file_worker file access_rights
+
+[1;33mTest 4: Standart work[0m
+Opened file: ./Stage4//data_file
+Opened file: ./Stage4//data_file
+File content:
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Open file error code: 13
+
+[1;33mTest 5: Standart work + write access[0m
+Opened file: ./Stage4//data_file
+Opened file: ./Stage4//data_file
+File content:
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Opened file: ./Stage4//data_file
+Opened file: ./Stage4//data_file
+File content:
+Hello woold
+
+ello worldeHello world
+Hello world
+Hello worldl
+[1;33mTest 6: More than two arguments[0m
+usage: file_worker file access_rights
+
+
+
+[1;32mTest Stage5[0m
+Stage5/test ./Stage5/
+
+[1;33mTest 1: help[0m
+usage: file_worker file access_rights
+	file - name of file
+	access_rights:
+		r - read
+		w - write
+		x - execute
+
+[1;33mTest 2: Empty command line argument list[0m
+usage: file_worker file access_rights
+
+[1;33mTest 3: Only file name[0m
+usage: file_worker file access_rights
+
+[1;33mTest 4: Standart work[0m
+Opened file: ./Stage5//data_file
+Open file result: 3
+Write file result: 12
+Write file result: 12
+Write file result: 12
+Write file result: 12
+Write file result: 12
+Close file result: 0
+Opened file: ./Stage5//data_file
+Open file result: 3
+File content:
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Close file result: 0
+Open file error code: 13
+Open file result: -1
+
+[1;33mTest 5: Standart work + write access[0m
+Opened file: ./Stage5//data_file
+Open file result: 3
+Write file result: 12
+Write file result: 12
+Write file result: 12
+Write file result: 12
+Write file result: 12
+Close file result: 0
+Opened file: ./Stage5//data_file
+Open file result: 3
+File content:
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Close file result: 0
+Opened file: ./Stage5//data_file
+Open file result: 3
+fstat result: 0
+File size: 60
+lseek result: 39
+Read file result: 1
+lseek result: 33
+Write file result: 1
+lseek result: 13
+Read file result: 1
+lseek result: 11
+Write file result: 1
+lseek result: 8
+Read file result: 1
+lseek result: 58
+Write file result: 1
+lseek result: 51
+Read file result: 1
+lseek result: 27
+Write file result: 1
+lseek result: 17
+Read file result: 1
+lseek result: 1
+Write file result: 1
+
+Close file result: 0
+Opened file: ./Stage5//data_file
+Open file result: 3
+File content:
+H llo worldeHello world
+Hello world
+Hello world
+Hello worlr
+Close file result: 0
+
+[1;33mTest 6: More than two arguments[0m
+usage: file_worker file access_rights
+
+
+
+[1;32mTest Stage6[0m
+Stage6/test ./Stage6/
+
+[1;33mTest 1: help[0m
+usage: file_worker file access_rights
+	file - name of file
+	access_rights:
+		r - read
+		w - write
+		x - execute
+
+[1;33mTest 2: Empty command line argument list[0m
+usage: file_worker file access_rights
+
+[1;33mTest 3: Only file name[0m
+usage: file_worker file access_rights
+
+[1;33mTest 4: Standart work[0m
+Opened file: ./Stage6//data_file
+Open file result: 3
+Write file result: 1
+Write file result: 1
+Write file result: 1
+Write file result: 1
+Write file result: 12
+Close file result: 0
+Opened file: ./Stage6//data_file
+Open file result: 3
+File content:
+
+
+
+
+Hello world
+Close file result: 0
+Open file error code: 13
+Open file result: -1
+
+[1;33mTest 5: Standart work + write access[0m
+Opened file: ./Stage6//data_file
+Open file result: 3
+Write file result: 1
+Write file result: 1
+Write file result: 1
+Write file result: 1
+Write file result: 12
+Close file result: 0
+Opened file: ./Stage6//data_file
+Open file result: 3
+File content:
+
+
+
+
+Hello world
+Close file result: 0
+Opened file: ./Stage6//data_file
+Open file result: 3
+fstat result: 0
+File size: 16
+lseek result: 2
+Read file result: 1
+lseek result: 3
+Write file result: 1
+lseek result: 11
+Read file result: 1
+lseek result: 1
+Write file result: 1
+lseek result: 5
+Read file result: 1
+lseek result: 2
+Write file result: 1
+lseek result: 11
+Read file result: 1
+lseek result: 12
+Write file result: 1
+lseek result: 5
+Read file result: 1
+lseek result: 9
+Write file result: 1
+
+Close file result: 0
+Opened file: ./Stage6//data_file
+Open file result: 3
+File content:
+
+oe
+Helloewoold
+Close file result: 0
+
+[1;33mTest 6: More than two arguments[0m
+usage: file_worker file access_rights
+
+
+
+[1;32mTest Stage7[0m
+Stage7/test ./Stage7/
+
+[1;33mTest 1: help[0m
+usage: file_worker file
+
+[1;33mTest 2: Empty command line argument list[0m
+usage: file_worker file
+
+[1;33mTest 3: Not exist file[0m
+Open file error code: 2
+Open file result: -1
+
+[1;33mTest 4: Standart work[0m
+Opened file: ./Stage7//data_file
+Open file result: 3
+fstat result: 0
+ID of device containing file: 42
+inode number: 3269103
+protection: 33252
+number of hard links: 1
+user ID of owner: 2292
+group ID of owner: 1001
+device ID (if special file): 0
+total size, in bytes: 0
+blocksize for file system I/O: 1048576
+number of 512B blocks allocated: 0
+time of last access: 1665351774
+time of last modification: 1665351774
+time of last status change: 1665351774
+
+Close file result: 0
+
+[1;33mTest 5: More than two arguments[0m
+usage: file_worker file
+
+
+
+[1;32mTest Stage8[0m
+Stage8/test ./Stage8/
+
+[1;33mTest 1: help[0m
+usage: file_worker <from file> <to file>
+
+[1;33mTest 2: Empty command line argument list[0m
+usage: file_worker <from file> <to file>
+
+[1;33mTest 3: Standart work[0m
+From file content:
+Hello world
+Hello world
+Hello world
+Opened file: ./Stage8//data_file1
+Opened file: ./Stage8//data_file2
+
+To file content:
+Hello world
+Hello world
+Hello world
+
+[1;33mTest 4: Standart work, second file not exist[0m
+From file content:
+Hello world
+Hello world
+Hello world
+Opened file: ./Stage8//data_file1
+Opened file: ./Stage8//data_file2
+
+To file content:
+Hello world
+Hello world
+Hello world
+
+
+
+[1;32mTest Stage10[0m
+Stage10/test ./Stage10/
+
+[1;33mTest 1: help[0m
+usage: file_worker <file>
+
+[1;33mTest 2: Empty command line argument list[0m
+usage: file_worker <file>
+
+[1;33mTest 3: Not exist file[0m
+Open file error code: 2
+
+[1;33mTest 4: Standart work[0m
+Opened file: ./Stage10//data_file
+
+*d*l*r*o*w* *o*l*l*e*H*
+*d*l*r*o*w* *o*l*l*e*H*
+*d*l*r*o*w* *o*l*l*e*H*
+
+
+[1;32mTest Stage11[0m
+Stage11/test ./Stage11/
+
+[1;33mTest 1: help[0m
+usage: file_worker <file> [<file> ...]
+
+[1;33mTest 2: Empty command line argument list[0m
+usage: file_worker <file> [<file> ...]
+
+[1;33mTest 3: Not exist file[0m
+File not exist: ./Stage11//not_ex_file
+File name: 
+Total size, in bytes: 0
+
+[1;33mTest 4: Standart work: One file[0m
+File name: ./Stage11//data_file1
+Total size, in bytes: 12
+
+[1;33mTest 5: Standart work: Two files[0m
+File name: ./Stage11//data_file2
+Total size, in bytes: 24
+
+[1;33mTest 5: Standart work: Three files[0m
+File name: ./Stage11//data_file3
+Total size, in bytes: 36
+
+
+

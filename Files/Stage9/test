@@ -1,0 +1,68 @@
+#!/bin/bash
+
+path="."
+
+if [ $# -ne 0 ]; then
+	path=$1
+fi
+
+echo -e ""
+echo -e "\033[1;33mTest 1: help\033[0m"
+$path/files_worker --help
+echo -e ""
+
+echo -e "\033[1;33mTest 2: Empty command line argument list\033[0m"
+$path/files_worker
+echo -e ""
+
+echo -e "\033[1;33mTest 3: Standart work\033[0m"
+rm -f $path/data_file1
+rm -f $path/data_file2
+
+touch $path/data_file1
+touch $path/data_file2
+
+chmod u=rwx $path/data_file1
+chmod u=rwx $path/data_file2
+
+echo "Hello world" >> $path/data_file1
+echo "Hello world" >> $path/data_file1
+echo "Hello world" >> $path/data_file1
+
+echo "From file content:"
+cat $path/data_file1
+
+$path/files_worker $path/data_file1 $path/data_file2
+
+echo ""
+echo "To file content:"
+cat $path/data_file2
+echo -e ""
+
+rm -f $path/data_file1
+rm -f $path/data_file2
+
+echo -e "\033[1;33mTest 4: Standart work, second file not exist\033[0m"
+rm -f $path/data_file1
+rm -f $path/data_file2
+
+touch $path/data_file1
+
+chmod u=rwx $path/data_file1
+
+echo "Hello world" >> $path/data_file1
+echo "Hello world" >> $path/data_file1
+echo "Hello world" >> $path/data_file1
+
+echo "From file content:"
+cat $path/data_file1
+
+$path/files_worker $path/data_file1 $path/data_file2
+
+echo ""
+echo "To file content:"
+cat $path/data_file2
+echo -e ""
+
+rm -f $path/data_file1
+rm -f $path/data_file2

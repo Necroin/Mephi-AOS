@@ -1,0 +1,15 @@
+#!/bin/bash
+
+path="."
+
+if [ $# -ne 0 ]; then
+	path=$1
+fi
+
+echo -e ""
+echo -e "\033[1;33mTest 1: Standart work\033[0m"
+$path/processes_worker
+sleep 4
+(ps aux | grep defunct)
+sleep 6
+echo -e ""

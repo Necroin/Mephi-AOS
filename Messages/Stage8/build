@@ -1,0 +1,10 @@
+#!/bin/bash
+
+path="."
+
+if [ $# -ne 0 ]; then
+	path=$1
+fi
+
+g++ $path/src/server.cpp -o $path/server -std=c++17
+g++ $path/src/client.cpp -o $path/client -std=c++17

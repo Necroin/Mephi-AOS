@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for i in $(seq 1 11);
+do
+	if [ -f Stage${i}/build ]; then
+		echo -e "\033[1;32mBuid Stage"${i}"\033[0m"
+		make build N=${i}
+		echo ""
+		echo ""
+	fi
+done

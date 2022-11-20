@@ -1,0 +1,12 @@
+#!/bin/bash
+
+for i in $(seq 1 11);
+do
+	if [ -f Stage${i}/src/main.c ]; then
+		echo -e "\033[1;32mBuid Stage"${i}"\033[0m"
+		chmod u=rwx Stage${i}/src/main.c
+		make build STAGE="Stage"${i}
+		echo ""
+		echo ""
+	fi
+done

@@ -1,0 +1,21 @@
+#!/bin/bash
+
+path="."
+
+if [ $# -ne 0 ]; then
+	path=$1
+fi
+
+echo -e ""
+echo -e "\033[1;33mTest 1: Standart work\033[0m"
+$path/stat 4
+echo -e ""
+$path/write 4 100 hellohellohellohello
+$path/stat 4
+echo -e ""
+$path/read 4 100
+echo -e ""
+$path/stat 4
+echo -e ""
+$path/remove 4
+echo -e ""
