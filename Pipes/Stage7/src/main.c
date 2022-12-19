@@ -10,7 +10,7 @@
 
 int main(int argc, char* argv[]) {
     int file_desc, n;
-	int buf_size = 80;
+	int buf_size = 10;
     char buf[buf_size];
 	
 	int pid = fork(); 
@@ -30,7 +30,7 @@ int main(int argc, char* argv[]) {
 		const char message2[] = " from ";
 		const char message3[] = "Child\n";
 
-		for(int i = 0; i < 10; ++i){
+		for(int i = 0; i < 1000; ++i){
 			write(file_desc, (void*)message1, strlen(message1));
 			write(file_desc, (void*)message2, strlen(message2));
 			write(file_desc, (void*)message3, strlen(message3));

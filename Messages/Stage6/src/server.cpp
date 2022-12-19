@@ -6,6 +6,7 @@
 #include <string.h>
 #include <signal.h>
 #include <cerrno>
+#include <unistd.h>
 
 #include "msg_types.h"
 

@@ -1,0 +1,2738 @@
+[Server] Created with listen socket: 4
+[Server] Server listen started
+[Server] Client connected with socket: 5
+[Server] [5] Worker started
+[Server] [5] Client connection processor started
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 1
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 16 bytes
+[SocketWriter] [5] message:
+	type: 2
+	size: 0
+	text: 
+[Server] Client connected with socket: 5
+[Server] [5] Worker started
+[Server] [5] Client connection processor started
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 1
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 16 bytes
+[SocketWriter] [5] message:
+	type: 2
+	size: 0
+	text: 
+[SocketReader] [5] Received 24 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 8
+	text: create 1
+[Server] Game 1 started with answer 81
+[SocketWriter] [5] Writed 58 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 42
+	text: Room created, waiting for second player...
+[SocketReader] [5] Received 24 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 8
+	text: create 1
+[SocketWriter] [5] Writed 69 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 53
+	text: [Server] [Error] Room already created by other player
+[SocketReader] [5] Received 25 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 9
+	text: connect 2
+[SocketWriter] [5] Writed 47 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 31
+	text: [Server] [Error] Room not exist
+[SocketReader] [5] Received 25 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 9
+	text: connect 1
+[SocketWriter] [5] Writed 47 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 31
+	text: Connected to room, game started
+[SocketWriter] [5] Writed 60 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 44
+	text: Other player connected to room, game started
+[SocketReader] [5] Received 25 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 9
+	text: answer 30
+[SocketWriter] [5] Writed 20 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 4
+	text: More
+[SocketReader] [5] Received 25 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 9
+	text: answer 40
+[SocketWriter] [5] Writed 20 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 4
+	text: More
+[SocketReader] [5] Received 25 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 9
+	text: answer 60
+[SocketWriter] [5] Writed 20 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 4
+	text: More
+[SocketReader] [5] Received 25 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 9
+	text: answer 81
+[SocketWriter] [5] Writed 23 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 7
+	text: You Win
+[SocketWriter] [5] Writed 53 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 37
+	text: Other player guessed number, you lost
+[SocketReader] [5] Received 25 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 9
+	text: answer 81
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] Room not exist
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketReader] [5] Received 0 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[Server] [Error] -> [SocketReader] [5] unexpected socket closing
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[Server] [5] Client disconnected
+[Server] [5] Client connection processor finished
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 16 bytes
+[SocketReader] [5] Readed message:
+	type: 3
+	size: 0
+	text: 
+[SocketWriter] [5] Writed 38 bytes
+[SocketWriter] [5] message:
+	type: 4
+	size: 22
+	text: [Error] invalid action
+[SocketReader] [5] Received 0 bytes
+[Server] [Error] -> [SocketReader] [5] unexpected socket closing
+[Server] [5] Client disconnected
+[Server] [5] Client connection processor finished
+[Server] [Error] -> message receive failed from queue: Interrupted system call

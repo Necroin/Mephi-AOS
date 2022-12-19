@@ -1,4 +1,3 @@
-#include <sys/types.h>
 #include <sys/ipc.h>
 #include <sys/msg.h>
 #include <sys/wait.h>
@@ -6,6 +5,8 @@
 #include <string.h>
 #include <signal.h>
 #include <cerrno>
+#include <sys/types.h>
+#include <unistd.h>
 
 #include "msg_types.h"
 
